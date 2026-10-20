@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fp_bg">#080B16</color>
+    <color name="fp_card">#111626</color>
+    <color name="fp_stroke">#283454</color>
+    <color name="fp_accent">#35DFFF</color>
+    <color name="fp_text">#F4F6FF</color>
+    <color name="fp_muted">#9AA8CC</color>
+</resources>

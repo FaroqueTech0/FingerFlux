@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FingerFlux</string>
+
+    <string name="desc">Custom fingerprint touch animation and vibration for SystemUI (ultrasonic UDFPS).</string>
+</resources>

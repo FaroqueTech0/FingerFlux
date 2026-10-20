@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style name="Base.AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+    <item name="colorPrimary">@color/fp_accent</item>
+    <item name="colorOnPrimary">#000000</item>
+    <item name="colorControlActivated">@color/fp_accent</item>
+    <item name="android:colorBackground">@color/fp_bg</item>
+    <item name="android:windowBackground">@color/fp_bg</item>
+    <item name="android:textColorPrimary">@color/fp_text</item>
+    <item name="android:textColorSecondary">@color/fp_muted</item>
+    <item name="android:statusBarColor">@color/fp_bg</item>
+    <item name="android:navigationBarColor">@color/fp_bg</item>
+    <item name="android:windowLightStatusBar">false</item>
+    <item name="android:windowLightNavigationBar">false</item>
+  </style>
+  <style name="AppTheme" parent="Base.AppTheme" />
+
+  <style name="FP.Slider" parent="Widget.AppCompat.SeekBar">
+    <item name="android:progressDrawable">@drawable/slider_track</item>
+    <item name="android:thumb">@drawable/slider_thumb</item>
+    <item name="android:splitTrack">false</item>
+    <item name="android:thumbOffset">0dp</item>
+    <item name="android:minHeight">40dp</item>
+    <item name="android:maxHeight">40dp</item>
+    <item name="android:paddingStart">17dp</item>
+    <item name="android:paddingEnd">17dp</item>
+  </style>
+
+  <style name="FP.DialogTitle" parent="MaterialAlertDialog.Material3.Title.Text">
+    <item name="android:textColor">@color/fp_text</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">22sp</item>
+  </style>
+  <style name="FP.DialogBody" parent="MaterialAlertDialog.Material3.Body.Text">
+    <item name="android:textColor">@color/fp_muted</item>
+    <item name="android:textSize">15sp</item>
+  </style>
+  <style name="FP.DialogPositive" parent="Widget.Material3.Button">
+    <item name="backgroundTint">@color/fp_accent</item>
+    <item name="android:textColor">#000000</item>
+    <item name="cornerRadius">20dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:minHeight">46dp</item>
+    <item name="android:insetTop">0dp</item>
+    <item name="android:insetBottom">0dp</item>
+  </style>
+  <style name="FP.DialogNegative" parent="Widget.Material3.Button.TextButton.Dialog">
+    <item name="android:textColor">@color/fp_muted</item>
+    <item name="cornerRadius">20dp</item>
+    <item name="android:minHeight">46dp</item>
+  </style>
+  <style name="FP.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+    <item name="colorSurface">@color/fp_card</item>
+    <item name="materialAlertDialogTitleTextStyle">@style/FP.DialogTitle</item>
+    <item name="materialAlertDialogBodyTextStyle">@style/FP.DialogBody</item>
+    <item name="buttonBarPositiveButtonStyle">@style/FP.DialogPositive</item>
+    <item name="buttonBarNegativeButtonStyle">@style/FP.DialogNegative</item>
+  </style>
+</resources>
